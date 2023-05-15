@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "452116251166",
+    "project_id": "cake-app-bcf26",
+    "storage_bucket": "cake-app-bcf26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452116251166:android:6987081458da7fba78a40f",
+        "android_client_info": {
+          "package_name": "com.example.cake_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452116251166-hdvbef85cv821tpqk4s2mn6vgqc4qi2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsbnke9mw28Hm9H70DguwJXr_Tm4dRTCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452116251166-hdvbef85cv821tpqk4s2mn6vgqc4qi2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
