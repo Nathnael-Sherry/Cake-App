@@ -13,11 +13,11 @@
         android:theme="@style/Theme.Cake_App"
         tools:targetApi="31">
         <activity
-            android:name=".pty"
+            android:name=".BakeryList"
             android:exported="false" />
-        <activity
-            android:name=".BakeryList_Activity"
-            android:exported="false" />
+        <!-- <activity -->
+        <!-- android:name=".pty" -->
+        <!-- android:exported="false" /> -->
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />
@@ -29,13 +29,12 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
     </application>
 
 </manifest>

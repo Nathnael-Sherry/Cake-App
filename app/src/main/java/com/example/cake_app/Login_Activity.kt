@@ -40,7 +40,7 @@ class Login_Activity : AppCompatActivity() {
                         Toast.makeText(this, "Login Success", Toast.LENGTH_SHORT).show()
 
                         //navigate a user to a different page
-                        var gotohome = Intent(this, BakeryList_Activity::class.java)
+                        var gotohome = Intent(this, BakeryList::class.java)
                         startActivity(gotohome)
                         finish()
                     }else{

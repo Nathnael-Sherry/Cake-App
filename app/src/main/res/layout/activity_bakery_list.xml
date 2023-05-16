@@ -4,15 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BakeryList_Activity"
-    android:background="@drawable/background">
-
-
+    tools:context=".BakeryList">
 
     <ListView
-        android:cacheColorHint="@color/black"
-        android:listSelector="@color/black"
-        android:id="@+id/bakelist"
+        android:id="@+id/bakery_listview"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="1dp"

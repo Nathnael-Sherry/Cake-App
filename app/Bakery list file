@@ -1,0 +1,16 @@
+val mylistview = findViewById<ListView>(R.id.list_bake)
+        val names = arrayOf("Wincer Cake House","Cake City", "Nillavee Cakes", "Le Grenier", "Tiramisu Bakery", "Artcaffe Bakery", "Alexandre Bakery", "Baker Inn", "Cold Stone Creamery", "Delish Bakery", "Sugarpie Bakery", "Tunu Bakeries", "Dr Chef's Bakery", "Jojo cake house", "Minnie's Bakery", "Hope Cakes", "Js Baking House", "Evory CupCakes Bakery")
+
+        val arrayAdapter: ArrayAdapter<String> = ArrayAdapter(
+            this, android.R.layout.simple_list_item_1, names
+        )
+
+        mylistview.adapter = arrayAdapter
+
+        mylistview.setOnItemClickListener { adapterView, view, i, l ->
+            Toast.makeText(this, "Item Selected"+names[i], Toast.LENGTH_SHORT).show()
+
+            var gotocakemain = Intent(this, MainActivity::class.java)
+            startActivity(gotocakemain
+            )
+        }
