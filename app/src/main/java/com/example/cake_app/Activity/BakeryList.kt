@@ -1,12 +1,12 @@
-package com.example.cake_app
+package com.example.cake_app.Activity
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import android.widget.Toast
+import com.example.cake_app.R
 
 class BakeryList : AppCompatActivity() {
 

@@ -1,9 +1,10 @@
-package com.example.cake_app
+package com.example.cake_app.Activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import com.example.cake_app.R
 
 class SplashScreen_Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

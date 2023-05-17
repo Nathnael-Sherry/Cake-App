@@ -13,19 +13,19 @@
         android:theme="@style/Theme.Cake_App"
         tools:targetApi="31">
         <activity
-            android:name=".BakeryList"
+            android:name=".Activity.BakeryList"
             android:exported="false" />
         <!-- <activity -->
         <!-- android:name=".pty" -->
         <!-- android:exported="false" /> -->
         <activity
-            android:name=".RegisterActivity"
+            android:name=".Activity.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".Login_Activity"
+            android:name=".Activity.Login_Activity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreen_Activity"
+            android:name=".Activity.SplashScreen_Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,7 +33,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity.MainActivity"
             android:exported="false" />
     </application>
 
